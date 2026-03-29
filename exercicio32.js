@@ -12,3 +12,7 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Dado um array de nomes, transforme-o em uma string separada por vírgulas
 *******************************************************************************/
+const nomes = ["Juliano", "Pedro", "Lucas", "Fernando", "Sara"];
+const nomesString = nomes.join(", "); // A função join() é usada para concatenar os elementos do array em uma string,
+//  separando-os por vírgulas e um espaço.
+console.log(nomesString);

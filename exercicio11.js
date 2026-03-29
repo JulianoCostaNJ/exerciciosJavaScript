@@ -12,3 +12,6 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Use um `for` para imprimir os números de 1 a 10 no console.
 *******************************************************************************/
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}

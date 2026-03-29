@@ -12,3 +12,11 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Crie um programa que verifique se um número é par ou ímpar.
 *******************************************************************************/
+const prompt = require("prompt-sync")(); // Importa a biblioteca prompt-sync para ler a entrada do usuário
+let numero = parseInt(prompt("Digite um número:")); // Lê o número digitado pelo usuário e converte para inteiro
+
+if (numero % 2 === 0) {
+  console.log("O número é par.");
+} else {
+  console.log("O número é ímpar.");
+}

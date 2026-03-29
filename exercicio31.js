@@ -12,3 +12,10 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Dada uma string, transforme-a em um array de caracteres
 *******************************************************************************/
+function stringToArray(str) {
+    return str.split('');
+}
+const prompt = require("prompt-sync")();
+const string = prompt("Digite uma string: ");
+const charArray = stringToArray(string);
+console.log("Array de caracteres:", charArray);

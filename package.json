@@ -1,0 +1,24 @@
+{
+  "name": "50-exercicios",
+  "version": "1.0.0",
+  "description": "> Repositório dedicado à resolução de uma lista técnica de 50 exercícios práticos em JavaScript para a disciplina de Programação Front-End.",
+  "main": "exercicio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianoCostaNJ/exerciciosJavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JulianoCostaNJ/exerciciosJavaScript/issues"
+  },
+  "homepage": "https://github.com/JulianoCostaNJ/exerciciosJavaScript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

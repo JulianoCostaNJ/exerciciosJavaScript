@@ -12,3 +12,11 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Crie uma função `areaRetangulo(base, altura)` que retorne a área.
 *******************************************************************************/
+function areaRetangulo(base, altura) {
+  return base * altura;
+}
+const prompt = require("prompt-sync")();
+const base = parseFloat(prompt("Digite a base do retângulo: "));
+const altura = parseFloat(prompt("Digite a altura do retângulo: "));
+const area = areaRetangulo(base, altura);
+console.log(`A área do retângulo é: ${area}`);

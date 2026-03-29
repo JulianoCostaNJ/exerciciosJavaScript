@@ -12,3 +12,6 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Use um `for` para imprimir a tabuada do 5 (de 1 a 10)
 *******************************************************************************/
+for (let i = 1; i <= 10; i++) {
+  console.log(`5 x ${i} = ${5 * i}`);
+}
