@@ -39,11 +39,14 @@ Conforme os requisitos técnicos obrigatórios, os arquivos estão organizados i
 
 ```text
 /
-├── exercicio01.js  # Verificação de número par ou ímpar
-├── exercicio02.js  # Verificação de idade para votação
+├── exercicio01.js      # Exemplo: Verificação de número par ou ímpar
+├── exercicio02.js      # Exemplo: Verificação de idade para votação
 ...
-├── exercicio50.js  # Implementação de Currying simples
-└── README.md       # Documentação do projeto
+├── exercicio50.js      # Exemplo: Implementação de Currying simples
+├── package.json        # Gerenciamento de dependências
+├── package-lock.json   # Registro detalhado de versões das dependências
+├── .gitignore          # Filtro de arquivos para o Git
+└── README.md           # Documentação do projeto
 ```
 
 > **Nota:** Cada arquivo-fonte contém um cabeçalho obrigatório com as informações dos componentes do grupo e uma breve explicação da lógica aplicada para resolver o problema.
@@ -60,7 +63,14 @@ Conforme os requisitos técnicos obrigatórios, os arquivos estão organizados i
    cd exerciciosJavaScript
    ```
 
-3. **Execute um exercício específico:**
+3. **Instale as dependências**
+   Como a pasta node_modules é ignorada pelo controle de versão, você deve baixar as bibliotecas necessárias (como o prompt-sync) executando:
+
+   ```bash
+   npm install
+   ```
+
+4. **Execute um exercício específico:**
    Certifique-se de ter o (https://nodejs.org/) instalado em sua máquina.
    ```bash
    node exercicio01.js
