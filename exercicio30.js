@@ -12,3 +12,9 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:Crie uma função que receba uma string e retorne-a invertida
 *******************************************************************************/
+function inverterString(texto) {
+    
+    return texto.split('').reverse().join('');
+}
+
+console.log(inverterString("JavaScript")); 

@@ -12,3 +12,6 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: . Implemente um "Currying" simples: `soma(2)(3)` deve retornar 5.
 *******************************************************************************/
+const soma = a => b => a + b;
+
+console.log(soma(2)(3));

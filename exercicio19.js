@@ -12,3 +12,16 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Dado um array de números, use um loop para encontrar o maior valor
 *******************************************************************************/
+const numeros = [15, 42, 7, 89, 23, 91];
+
+
+let maior = numeros[0];
+
+for (let i = 1; i < numeros.length; i++) {
+    
+    if (numeros[i] > maior) {
+        maior = numeros[i]; 
+    }
+}
+
+console.log("O maior valor do array é:", maior);

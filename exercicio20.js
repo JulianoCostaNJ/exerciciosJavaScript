@@ -13,3 +13,11 @@ Data: 10 de abril de 2026
 Descritivo: Use um `do...while` para garantir que uma variável seja incrementada pelo menos uma vez antes da 
 verificação.
 *******************************************************************************/
+let contador = 0;
+
+do {
+    contador++; 
+    console.log("O contador agora é: " + contador);
+} while (contador < 5);
+
+console.log("Loop finalizado.");

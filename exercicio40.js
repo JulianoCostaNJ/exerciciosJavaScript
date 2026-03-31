@@ -12,3 +12,8 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Remova os espaços em branco do início e fim de uma string (`trim`)
 *******************************************************************************/
+let usuarioInput = "   joao_silva   ";
+let usuarioLimpo = usuarioInput.trim();
+
+console.log(`'${usuarioInput}'`);
+console.log(`'${usuarioLimpo}'`);

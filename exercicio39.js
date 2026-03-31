@@ -12,3 +12,8 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Ordene um array de números em ordem crescente.
 *******************************************************************************/
+const numeros = [40, 100, 1, 5, 25, 10];
+
+numeros.sort((a, b) => a - b);
+
+console.log(numeros);

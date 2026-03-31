@@ -12,3 +12,15 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:Implemente uma função recursiva para calcular o fatorial.
 *******************************************************************************/
+function calcularFatorial(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+
+    return n * calcularFatorial(n - 1);
+}
+
+const numero = 5;
+const resultado = calcularFatorial(numero);
+
+console.log(`O fatorial de ${numero} é: ${resultado}`);
