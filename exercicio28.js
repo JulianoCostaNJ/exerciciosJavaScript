@@ -12,3 +12,26 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Crie uma função que retorne um objeto com `nome` e `idade` da pessoa.
 *******************************************************************************/
+/**
+ * Função: criarPessoa
+ * Parâmetros: nome (String), idade (Number)
+ * Retorno: Objeto contendo os dados recebidos
+ */
+function criarPessoa(nomeInformado, idadeInformada) {
+    // Criamos o objeto e atribuímos os parâmetros às propriedades
+    const pessoa = {
+        nome: nomeInformado,
+        idade: idadeInformada
+    };
+
+    return pessoa; // Retorna o objeto completo
+}
+
+// --- Execução no VS Code ---
+
+// Chamamos a função e armazenamos o objeto retornado em uma constante
+const usuario = criarPessoa("Sara", 25);
+
+// Acessando as propriedades do objeto retornado
+console.log("Objeto completo:", usuario);
+console.log(`Olá, meu nome é ${usuario.nome} e tenho ${usuario.idade} anos.`);
