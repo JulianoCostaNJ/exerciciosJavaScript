@@ -12,3 +12,17 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Crie uma função `operacao(a, b, callback)` que execute o callback com a e b.
 *******************************************************************************/
+
+function operacao(a, b, callback) {
+  return callback(a, b);
+}
+
+const soma = (a, b) => a + b;
+const subtracao = (a, b) => a - b;
+const multiplicacao = (a, b) => a * b;
+const divisao = (a, b) => a / b;
+
+console.log(operacao(10, 5, soma));
+console.log(operacao(10, 5, subtracao));
+console.log(operacao(10, 5, multiplicacao));
+console.log(operacao(10, 5, divisao));
