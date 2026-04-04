@@ -12,3 +12,9 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Use `.filter()` para criar um novo array apenas com números pares
 *******************************************************************************/
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const pares = numeros.filter(n => n % 2 === 0);
+
+console.log(pares); 
