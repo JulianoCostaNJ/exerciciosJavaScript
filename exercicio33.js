@@ -12,3 +12,9 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Use `.map()` para dobrar todos os valores de um array numérico
 *******************************************************************************/
+
+const numeros = [1, 2, 3, 4, 5];
+
+const dobrados = numeros.map(n => n * 2);
+
+console.log(dobrados);
