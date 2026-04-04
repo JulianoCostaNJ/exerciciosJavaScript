@@ -12,3 +12,15 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Escreva uma função que receba dois números e retorne o maior deles.
 *******************************************************************************/
+
+function maiorNumero(a, b) {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+
+console.log(maiorNumero(10, 5)); 
+console.log(maiorNumero(3, 99));  
+console.log(maiorNumero(7, 7));   
