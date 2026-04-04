@@ -12,3 +12,7 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:Use `setTimeout` com uma Arrow Function para imprimir "Olá" após 2 segundos
 *******************************************************************************/
+
+setTimeout(() => {
+  console.log("Olá");
+}, 2000);
