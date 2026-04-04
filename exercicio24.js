@@ -12,3 +12,11 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Crie uma função que converta graus Celsius para Fahrenheit
 *******************************************************************************/
+
+function celsiusParaFahrenheit(celsius) {
+  return (celsius * 9/5) + 32;
+}
+
+console.log(celsiusParaFahrenheit(0)); 
+console.log(celsiusParaFahrenheit(100)); 
+console.log(celsiusParaFahrenheit(37));  
