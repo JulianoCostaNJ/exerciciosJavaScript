@@ -12,3 +12,8 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Imprima apenas os números pares de 0 a 20 usando `continue`.
 *******************************************************************************/
+
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 !== 0) continue; 
+  console.log(i);
+}
