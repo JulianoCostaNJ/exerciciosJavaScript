@@ -12,3 +12,10 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Escreva uma função `saudacao(nome)` que retorne "Olá, [nome]!"
 *******************************************************************************/
+
+function saudacao(nome) {
+  return `Olá, ${nome}!`;
+}
+
+console.log(saudacao("Maria"));
+console.log(saudacao("João"));  
