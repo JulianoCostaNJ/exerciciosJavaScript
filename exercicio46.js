@@ -13,3 +13,27 @@ Data: 10 de abril de 2026
 Descritivo: Crie uma Higher-Order Function que receba uma função e retorne outra função que execute a primeira 
 duas vezes.
 *******************************************************************************/
+
+const prompt = require('prompt-sync')();
+
+// 1. A Higher-Order Function (A "Fábrica")
+// Ela recebe 'fn' (uma função) como parâmetro
+function repetirDuasVezes(fn) {
+    // Ela retorna uma NOVA função
+    return function() {
+        fn(); // Executa a primeira vez
+        fn(); // Executa a segunda vez
+    };
+}
+
+// 2. Uma função simples para testar
+const dizerOla = () => {
+    console.log("Olá, mundo! 👋");
+};
+
+// 3. Criando a função turbinada
+const dizerOlaDuasVezes = repetirDuasVezes(dizerOla);
+
+// 4. Executando
+console.log("--- Executando a função retornada ---");
+dizerOlaDuasVezes();

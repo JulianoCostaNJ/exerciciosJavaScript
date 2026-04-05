@@ -12,3 +12,19 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo:  Use um `while` para contar regressivamente de 10 até 0.
 *******************************************************************************/
+
+// 1. Iniciamos a variável com o valor de partida
+let contador = 10;
+
+console.log("Iniciando contagem regressiva...");
+
+// 2. A condição: "Enquanto o contador for maior ou igual a zero"
+while (contador >= 0) {
+    console.log(contador); // Exibe o número atual
+    
+    // 3. Decremento: Diminuímos 1 do valor a cada volta
+    // Isso é fundamental para não travar o navegador em um loop infinito
+    contador--; 
+}
+
+console.log("Feliz Ano Novo!");

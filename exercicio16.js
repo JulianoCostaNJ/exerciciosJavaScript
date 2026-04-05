@@ -12,3 +12,15 @@ Componentes:
 Data: 10 de abril de 2026
 Descritivo: Crie um loop que pare (`break`) quando encontrar o número 7 em uma contagem de 1 a 10.
 *******************************************************************************/
+
+console.log("Iniciando a contagem...");
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 7) {
+        console.log("Número 7 encontrado! Parando o loop...");
+        break; // Interrompe o loop imediatamente
+    }
+    console.log("Número: " + i);
+}
+
+console.log("Loop finalizado.");
